@@ -9,8 +9,8 @@ function superSum(num1, num2) {
 // creating numbers array
 let numberArr = [3, 66, 28, -5, 32, 104, -13, 66, 125];
 // creating max and min variables
-let maxNum = 0;
-let minNum = 0;
+let maxNum = numberArr[0];
+let minNum = numberArr[0];
 // cycle for() (logic)
 for(let i = 0; i < numberArr.length; i++) {
 	if(maxNum < numberArr[i]) {
@@ -39,7 +39,7 @@ console.log(b); // то что было изначально в a
 function findMax(arr) {
 	// creating maxNum variable inside function visability
 	// so it doesn't conflict with global maxNum variable
-	let maxNum = 0;
+	let maxNum = arr[0];
 	for(let i = 0; i < arr.length; i++) {
 		if(maxNum < arr[i]) {
 			maxNum = arr[i];
