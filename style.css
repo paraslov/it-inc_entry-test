@@ -1,0 +1,49 @@
+/* Task 2 is on code string 33  */
+/* Task 1. Layout ==========================================>  */
+body {
+	margin: 0;
+}
+
+.search-wrapper {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	background: url('https://scx2.b-cdn.net/gfx/news/hires/2019/4-space.jpg')
+}
+
+.search-title {
+	color: white;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.search-window {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Task 2. Button and input layout. ===========================================>
+	All conditions were completed plus border-radius 
+	for a bit smooth stylization */
+.search-window input {
+	font-size: 21px;
+	width: 100%;
+	height: 40px;
+	border-color: tomato;
+	border-radius: 30px;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+.search-window button {
+	color: white;
+	font-size: 25px;
+	background-color: green;
+	width: 40%;
+	height: 40px;
+	border-radius: 30px;
+}
